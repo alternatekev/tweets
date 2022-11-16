@@ -1,0 +1,16 @@
+{
+  "name": "tweets.alternate.org",
+  "version": "1.0.0",
+  "main": "tweets.js",
+  "repository": "git@github.com:alternatekev/tweets.git",
+  "author": "Kevin Conboy <kev@alternate.org>",
+  "license": "MIT",
+  "dependencies": {
+    "json-graphql-server": "^2.3.2",
+    "write-json-file": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "json-graphql-server tweets-gql.js --p 3001",
+    "start": "json-graphql-server tweets-gql.js"
+  }
+}
