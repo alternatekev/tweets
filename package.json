@@ -9,7 +9,6 @@
     "write-json-file": "^5.0.0"
   },
   "scripts": {
-    "dev": "json-graphql-server tweets-gql.js --p 3001",
-    "build": "json-graphql-server tweets-gql.js"
+    "dev": "node ./api/index.js --p 3001"
   }
 }
