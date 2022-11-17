@@ -1,9 +1,9 @@
-import express from "express";
-import jsonGraphqlExpress from "json-graphql-server";
-import data from "./tweets-gql";
+const express = require("express");
+const jsonGraphqlExpress = require("json-graphql-server");
+const data = require("./tweets-gql");
 
 const PORT = 3000;
 const app = express();
 
-app.use("/graphql", jsonGraphqlExpress(data));
+app.use("/graphql", jsonGraphqlExpress.default(data));
 app.listen(PORT);

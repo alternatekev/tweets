@@ -9,6 +9,6 @@
     "write-json-file": "^5.0.0"
   },
   "scripts": {
-    "dev": "node ./api/index.js --p 3001"
+    "dev": "node ./api/index.js"
   }
 }
