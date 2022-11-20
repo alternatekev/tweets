@@ -9,6 +9,7 @@
     "write-json-file": "^5.0.0"
   },
   "scripts": {
-    "dev": "node ./api/index.js"
+    "dev": "node ./api/index.js",
+    "push": "json2graphql https://crucial-chigger-62.hasura.app/ -s <secret> -d ./tweets-gql.json"
   }
 }
